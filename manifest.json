@@ -64,11 +64,8 @@
     }
   },
   "background": {
-    "service_worker": [
-      "/background/commands.js",
-      "/background/setup.js",
-      "/background/webstore-fix.js"
-    ]
+    "service_worker": "background/service_worker.js",
+    "type": "module"
   },
   "chrome_url_overrides": {
     "newtab": "/new-tab/main.html"
